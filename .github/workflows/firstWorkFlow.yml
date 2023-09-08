@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
+
   firstjob:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: firstJob script
         shell: bash
